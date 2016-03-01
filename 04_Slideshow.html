@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="css/04_Slideshow.css"/>
+    <link rel="stylesheet" href="css/03_TableGenerator.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="container-gallery">
+        <div class="gallery-content">
+            <div class="slide">
+                <div>
+                    <span>Slide 1</span>
+                    <p>JavaScript rules</p>
+                    <!--<img src="resources/img/javascript-shield.png"/> -->
+                </div>
+            </div>
+            <div class="slide">
+                <div>
+                    <span>Slide 2</span>
+                    <p>SoftUni rules, too!</p>
+                    <!--<img src="resources/img/photo.jpg"/> -->
+                </div>
+            </div>
+            <div class="slide">
+                <div>
+                    <span>Slide 3</span>
+                    <p>Nakov is a God, and all we are his followers!</p>
+                    <!--<img src="resources/img/NAKOV.png"/> -->
+                </div>
+            </div>
+            <div class="slide">
+                <div>
+                    <span>Slide 4</span>
+                    <form>
+                        <label>JSON:</label>
+        <textarea rows="10" cols="100" class="input">[{"manufacturer":"BMW","model":"E92 320i","year":2011,"price":50000,"class":"Family"},
+{"manufacturer":"Porsche","model":"Panamera","year":2012,"price":100000,"class":"Sport"},
+{"manufacturer":"Peugeot","model":"305","year":1978,"price":1000,"class":"Family"}]</textarea>
+                        <div class="button">Generate table</div>
+                    </form>
+                    <div class="output"></div>
+                </div>
+            </div>
+        </div>
+        <div id="triggers">
+            <div class="gallery-trigger" id="trigger1"></div>
+            <div class="gallery-trigger" id="trigger2"></div>
+            <div class="gallery-trigger" id="trigger3"></div>
+            <div class="gallery-trigger" id="trigger4"></div>
+        </div>
+        <div class="left"><span><</span></div>
+        <div class="right"><span>></span></div>
+    </div>
+</div>
+<script src="js/04_Slideshow.js"></script>
+</body>
+</html>

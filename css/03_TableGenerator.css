@@ -1,0 +1,57 @@
+#wrapper {
+    width: 720px;
+}
+form {
+    width: 100%;
+    margin: 20px;
+}
+form label {
+    display: block;
+}
+textarea {
+    border: 2px solid #43aabc;
+}
+
+.button {
+    display: block;
+    float: right;
+    height: 30px;
+    width: 200px;
+    padding: 2px 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    background-color: royalblue;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.output {
+    margin: 100px 20px 0;
+}
+
+.output table {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.output table tr th {
+    padding: 5px 20px;
+    border-bottom: 2px solid #43aabc;
+    border-right: none;
+}
+
+.output table tr td {
+    padding: 5px 20px;
+    border-bottom: 1px solid #43aabc;
+    border-right: none;
+}

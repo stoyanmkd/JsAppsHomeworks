@@ -1,0 +1,76 @@
+.container-gallery {
+    position: relative;
+    height: 600px;
+    width: 960px;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.gallery-content {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.gallery-content .slide {
+    display: none;
+    list-style: none;
+    cursor: auto;
+}
+.gallery-trigger {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #53bacc;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.gallery-trigger:nth-of-type(1){
+    background-color: #43aabc;
+}
+
+.gallery-trigger:hover {
+    box-shadow: 0 0 4px 1px #53bacc;
+}
+
+#triggers {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
+.slide span {
+    font-size: 20px;
+    color: #53bacc;
+}
+
+.slide p {
+    font-size: 18px;
+    color: #43aabc;
+}
+
+.left,
+.right {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #53bacc;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 40px;
+    text-align: center;
+    bottom: 120px;
+    position: absolute;
+}
+
+.left {
+    left: 20px;
+}
+
+.right {
+    right: 20px;
+}

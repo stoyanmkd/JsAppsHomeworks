@@ -1,0 +1,24 @@
+.button {
+    display: inline-block;
+    height: 30px;
+    padding: 2px 5px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    background-color: royalblue;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+p span {
+    color: dodgerblue;
+    font-weight: bold;
+}
